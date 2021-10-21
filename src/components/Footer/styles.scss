@@ -1,0 +1,19 @@
+.footer{
+    height: 60px;
+    box-shadow: 12px 0px 4px rgba(0,0,0,.1);
+    width: 100%;
+    .wrap{
+
+        height: 100%;
+        margin: 0px 220px 10px;
+        position: relative;
+        .p{
+            position: absolute;
+            padding: 30;
+            -webkit-transform: translateY(-150%);
+            -moz-transform: translateY(-150%);
+            transform: translateY(-150%);
+        }
+
+    }
+}
